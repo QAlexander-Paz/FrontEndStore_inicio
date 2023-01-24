@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Store</title>
+    <link rel="stylesheet" href="css/normalize.css"> <!-- este enlace es para poder enlasar la hoja de scc-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header_logo"src="img/logo.png" alt="logotipo"> <!--recurso que contiene a la fuente.-- y cada vez que se ponga una imagen toca que ponerle atl que es el texto alternativpo y sive para posicionar mi pagina-->
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion_enlace navegacion_enlace---Activo "href="index.html">Tienda</a>
+        <a class="navegacion_enlace"href="Nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+        <h1>React JS</h1> 
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+            <div class="camisa__contenido">
+                <p> recurso que contiene a la fuente.-- y cada vez que se ponga una imagen toca que ponerle atl que es el texto alternativpo y sive para posicionar mi pagina</p>
+                <form class="formulario">
+                    <select  class="formulario__campo">
+                        <section disabled  selected>---Seleccionar Talla---</section>
+                        <option>Grande</option>
+                        <option>Pequeña</option>
+                        <option>Mediana</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="cantidad" min="1">
+                    <input class="formulario__submit"type="submit" value="agregar al carrito">
+
+                </form>
+            </div>
+        </div>
+         </main>
+    <footer class="footer"> <!-- representa un pie de página para el contenido-->
+        <p class="footer_texto"> Front End Store Todos los derechos reservado </p>
+    </footer>
+</body>
+</html>
